@@ -1,0 +1,74 @@
+.img1:hover{
+    transform: scale(0.5) ;
+    transition-duration: .7s;
+}
+
+.img2:hover{
+    transform: rotate(45deg);
+    transition-duration: .9s;
+}
+
+.img3:hover{
+    transform:translate(50px, 0px);
+}
+
+.img4:hover{
+    transform: rotateX(-20deg);    
+}
+
+.img1, .img2, .img3, .img4 {
+    width: 480px;
+    height: 350px;
+}
+
+div{
+    margin-top: 100px;
+    overflow: hidden;
+    border:2px solid black;
+    width:1940px;
+    height:348px;
+}
+
+h1 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 34px;
+    color: darkblue;
+}
+
+       /*Панель навигации*/
+
+.nav a {
+display: inline-block;
+border: 1px solid black;
+padding: 5px 15px 5px 15px;
+background-color: yellow;
+text-decoration: none;
+color: blue;
+}
+
+.nav ul {
+        margin:0;
+        padding:0;
+        list-style-type:none;
+    }
+
+.nav li a {
+        display: block;
+        background: yellow;
+        border: 1px solid black;
+        padding: 8px;
+}
+
+.nav>ul>li {
+        float:left;
+        width:180px;
+        position: relative;
+}
+
+.nav{
+   position: absolute;
+   top:0px;
+    left:250px;
+}
+

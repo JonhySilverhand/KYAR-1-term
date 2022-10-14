@@ -1,0 +1,85 @@
+.cont1 {
+    overflow: hidden;
+    border: 1px dashed green;
+    width: 750px;
+    height: 107px;
+}
+
+.cont11,
+.cont12,
+.cont13,
+.cont14,
+.cont15,
+.cont16,
+.cont17 {
+    height: 70px;
+    width: 70px;
+    margin: 10px 10px 10px 10px;
+}
+
+
+div {
+    float: left;
+}
+
+.cont11 {
+    border: 8px outset red;
+}
+
+.cont12 {
+    border: 8px dashed rgb(0, 128, 0);
+}
+
+.cont13 {
+    border: 8px dotted rgb(0, 0, 255);
+}
+
+.cont14 {
+    border: 8px double rgb(0, 255, 255);
+}
+
+.cont15 {
+    border: 8px groove rgb(128, 0, 128);
+}
+
+.cont16 {
+    border: 8px inset rgb(255, 255, 0);
+}
+
+.cont17 {
+    border: 8px solid rgb(0, 0, 0);
+}
+
+/*cont2*/
+
+.cont2 {
+    position: absolute;
+    margin: 120px 20px 100px 20px;
+}
+  
+
+p {
+    font-size: 19px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #FFA500;
+    border: 2px solid #FF4500;
+}
+
+.p1 {
+    width: 400px;
+    text-align: center;
+    border: 2px solid #FF7F50;
+}
+
+.p2 {
+    overflow: auto;
+    display: block;
+    border: 5px solid red;
+    border-radius: 20px/40px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+}
+
+.p3 {
+    border: 2px solid #FF6347;
+}

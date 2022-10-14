@@ -1,0 +1,28 @@
+.cont1,
+.cont2,
+.cont3 {
+    overflow: hidden;
+    width: 1680px;
+    height: 250px;
+    padding: 20px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8,
+.img9,
+.img10,
+.img11,
+.img12 {
+    width: 340px;
+    height: 230px;
+}
+
+figure {
+    float: left;
+}

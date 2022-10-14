@@ -1,0 +1,90 @@
+.img1:hover {
+    transform: scale(0.5);
+    transition-duration: .7s;
+}
+
+.img2:hover {
+    transform: rotate(45deg);
+    transition-duration: .9s;
+}
+
+.img3:hover {
+    transform: translate(50px, 0px);
+}
+
+.img4:hover {
+    transform: rotateX(-20deg);
+}
+
+.img1, .img2, .img3, .img4 {
+    width: 480px;
+    height: 350px;
+}
+
+div {
+    overflow: hidden;
+    border: 2px solid black;
+    width:1940px;
+    height:348px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 34px;
+    color: darkblue;
+    animation-name: oh1;
+    animation-direction: reverse;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes oh1 {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 80%;
+    }
+}
+
+/* Навигация */
+
+.nav {
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+.nav a {
+    display: block;
+    width: 144px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-top: 1px dashed #2d1263;
+    border-right: 1px dashed #2d1263;
+    border-left: 5px solid red;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav .a3{
+    border-bottom: 1px dashed #2d1263;
+}
+
+.a1:link {
+    color: red;
+    text-decoration: none;
+}
+
+.a2 {
+    color: blue;
+}
+
+.a2:visited {
+    color: #8B0000;
+}
+
+.a3:active {
+    color: rgb(184, 134, 11);
+}

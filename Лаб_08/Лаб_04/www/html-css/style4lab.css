@@ -1,0 +1,54 @@
+table {
+    width: 350px;
+    empty-cells: hide;
+  border-spacing:1px;
+}
+
+tr,
+td {
+    border: 2px solid black;
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    color:#fff;
+}
+
+th {
+    text-align: center;
+}
+
+.col1{
+    width:4%;
+}
+.col2{
+    width:4%;
+    background-color: darkblue;
+}
+.col3{
+   width:4%; 
+   background-color: darkblue; 
+    border-left:0;
+    border-right: 0;
+}
+.col4{
+   width:4%;
+    background-color: darkblue;
+}
+
+.cl2{
+    background-color: #00BFFF ;
+    
+}
+
+.cl3{
+    background-color: purple;
+}
+
+.cl4{
+    background-color: green;
+}
+
+span{
+    color:black;
+}
+

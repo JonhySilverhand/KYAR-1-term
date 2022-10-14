@@ -1,0 +1,48 @@
+.nav a {
+display: inline-block; 
+padding: 5px 15px 5px 15px;
+text-decoration: none;
+color: blue;
+}
+
+.nav ul {
+        margin:0;
+        padding:0;
+        list-style-type:none;
+     }
+
+.nav li a {
+        display: block;
+        padding: 8px;
+}
+
+.nav>ul>li {
+        float:left;
+        width:280px;
+        position: relative;
+}
+
+ul > li {
+    border: 1px solid black;
+    list-style: none;
+    background: url(../labs/facultet.png) no-repeat 0 0%;
+    padding-left: 24px;
+    width:30px;
+    height:30px;
+}
+
+li:nth-child(1):hover{
+    background: url(../labs/facultet.png) no-repeat  0 0px;
+}
+
+li:nth-child(2):hover{
+    background: url(../labs/facultet.png) no-repeat  0 -30px;
+}
+
+li:nth-child(3):hover{
+    background: url(../labs/facultet.png) no-repeat  0 -90px;
+}
+
+li:nth-child(4):hover{
+    background: url(../labs/facultet.png) no-repeat  0 -60px;
+}
