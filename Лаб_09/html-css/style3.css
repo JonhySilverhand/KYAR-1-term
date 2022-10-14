@@ -1,0 +1,11 @@
+.container{
+    display: grid;
+    height: 120vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.cont1, .cont2, .cont3, .cont4, .cont5, .cont6, .cont7, .cont8{
+    background-color: yellow;
+    width:200px;
+    height:116px;
+}

@@ -1,0 +1,53 @@
+body{
+    background-image: url(images/fon.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color:#fff;
+    
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.35fr 0.2fr 2.3fr 1fr;
+    grid-template-rows: 0.7fr 1.5fr 0.4fr 1fr;
+    grid-template-areas: "nav content__header content__header content__header"
+        "nav content__article content__article content__aside"
+        "footer footer footer footer";
+    grid-gap: 0.5em;
+}
+
+.nav{ 
+    grid-area: nav;
+    font-size: 28px;
+ 
+}
+.content__header{
+    grid-area: content__header;
+    font-size: 28px;
+    text-align: center;
+}
+.content__article{
+    grid-area: content__article;
+    font-size: 28px;
+}
+.content__aside{
+    grid-area: content__aside;
+    font-size: 28px;
+}
+footer{
+    grid-area: footer;
+    font-size: 28px;
+}
+a{
+    text-decoration: none;
+       color:#3074b8;
+}
+li{
+    list-style-type: none;
+    margin:20px 0px;
+}
+
+
+
+

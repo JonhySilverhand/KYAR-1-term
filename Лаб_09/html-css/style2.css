@@ -1,0 +1,28 @@
+img{
+    width: 250px;
+    height: 250px; 
+}
+li{
+    list-style-type: none;
+    font-size: 25px;
+    padding-top: 25px;
+}
+li a{
+    text-decoration:none;
+}
+
+body{
+    background-image: url(images/fon11.jpg);
+    background-size: 100%;
+}
+.container{
+    color: #18b5a0;
+    
+}
+span{
+    font-size: 25px;
+    color:aquamarine;
+}
+.three columns{
+    font-size: 20px;
+}
