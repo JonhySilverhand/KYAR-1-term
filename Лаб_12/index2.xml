@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl" ?>
+<attest>
+
+<stud>
+<name>Бычков Роман</name>
+<math>7</math>
+<alocsvm>8</alocsvm>
+<oaip>9</oaip>
+<kyar>8</kyar>
+<fizra>5</fizra>
+</stud>
+
+<stud>
+<name>Дмитриев Мирон</name>
+<math>9</math>
+<alocsvm>5</alocsvm>
+<oaip>6</oaip>
+<kyar>7</kyar>
+<fizra>7</fizra>
+</stud>
+
+<stud>
+<name>Малышева Виктория</name>
+<math>10</math>
+<alocsvm>7</alocsvm>
+<oaip>8</oaip>
+<kyar>4</kyar>
+<fizra>3</fizra>
+</stud>
+
+<stud>
+<name>Павлов Марк</name>
+<math>6</math>
+<alocsvm>2</alocsvm>
+<oaip>6</oaip>
+<kyar>5</kyar>
+<fizra>9</fizra>
+</stud>
+
+<stud>
+<name>Князев Даниил</name>
+<math>7</math>
+<alocsvm>5</alocsvm>
+<oaip>9</oaip>
+<kyar>10</kyar>
+<fizra>7</fizra>
+</stud>
+</attest>
+
