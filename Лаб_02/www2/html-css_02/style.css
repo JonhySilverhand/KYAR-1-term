@@ -1,0 +1,62 @@
+body {
+    background-color: #d3d6f2;
+    font-family: Arial;
+}
+
+
+
+p {
+
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+
+table {
+    border: 2px solid black;
+    width: 1200px;
+    
+}
+
+td {
+    font-size: 28px;
+}
+
+tr,
+td {
+    border: 2px solid black;
+    height: 25px;
+    width: 30px;
+    text-align: center;
+    background-color: dodgerblue;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Monotype Cyrsiva;
+    color: #8b00ff;
+}
+
+.subp1 {
+    font-family: Times New Roman;
+    font-size: 18pt;
+    color: red;
+}
+
+.subp2 {
+    font-family: Times New Roman;
+    font-size: 20pt;
+    color: yellow;
+}
+
+.subp3 {
+    font-family: Times New Roman;
+    font-size: 22pt;
+    color: green;
+}
+
+li {
+    font-size: 23px;
+}

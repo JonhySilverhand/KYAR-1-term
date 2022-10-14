@@ -1,0 +1,15 @@
+h1,
+h1 ~ p {
+    background-color: yellow;
+    font-size: 19px;
+}
+
+h2 ~ p {
+    color: blue;
+    font-size: 20px;
+}
+
+body {
+    background-color: #a3d98b;
+
+}

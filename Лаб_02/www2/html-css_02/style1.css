@@ -1,0 +1,52 @@
+body {
+    margin: 0 400px;
+}
+
+
+
+.cont1 {
+    border: 3px solid red;
+    border-radius: 10px;
+    width: 466px;
+    height: 200px;
+    background: linear-gradient(45deg, red, blue, violet);
+
+}
+
+.cont2 {
+    border: 3px solid red;
+    border-radius: 10px;
+    width: 660px;
+    height: 150px;
+    background: linear-gradient(45deg, red, blue, violet);
+    color: white;
+}
+
+img {
+    width: 590px;
+    height: 280px;
+    border: 2px solid black;
+    border-radius: 3px;
+
+}
+
+h2 {
+    font-size: 18px;
+}
+
+span {
+    color: black;
+}
+
+footer {
+    color: #a6219f;
+}
+
+figcaption {
+    font-size: 19px;
+
+}
+
+#span1 {
+    text-decoration: line-through;
+}
