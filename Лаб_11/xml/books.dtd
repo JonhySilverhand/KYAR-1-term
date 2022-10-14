@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+        <!DOCTYPE books [
+        <!ELEMENT books (heading, book1, book2, book3)>
+        <!ELEMENT heading (#PCDATA)>
+        <!ELEMENT book1 (#PCDATA)>
+        <!ELEMENT book2 (#PCDATA)>
+        <!ELEMENT book3 (#PCDATA)>
+
+        <!ENTITY name "mountain bike">
+        ]>

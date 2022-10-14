@@ -1,0 +1,25 @@
+books {
+    color: white;
+    background-color : gray;
+    width: 100%;
+}
+heading {
+    color: green;
+    font-size : 40px;
+    background-color : powderblue;
+}
+heading, title, info, books {
+    display : block;
+}
+title {
+    color:#58d10d;
+    margin-left:50px;
+    font-size : 25px;
+    font-weight : bold;
+}
+info{
+    font-size: 19px;
+    display:block;
+    width:600px;
+    margin-left:10px;
+}
