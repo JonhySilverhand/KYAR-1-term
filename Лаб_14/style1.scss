@@ -1,0 +1,50 @@
+$bg_color:#5c69d8;
+body {
+    background-color:$bg_color;
+    font-family: arial;
+}
+
+$fon_col:#9a1cad;
+h1 {
+    font-size: 37px;
+    color: $fon_col;
+}
+
+$fsize:33px;
+$fcolor: #9a1cad;
+h2,
+h3 {
+    font-size: $fsize;
+    color: $fcolor;
+}
+$fsizeol:25px;
+ol {
+    font-size: $fsizeol;
+}
+
+$colortxt:crimson;
+p {
+    color:$colortxt;
+    text-align: center;
+    font-size: 21px;
+    font-family: Arial;
+}
+
+
+table {
+    border: 2px solid black;
+    width: 1200px;
+}
+$fsiztd:28px;
+td {
+    font-size: $fsiztd;
+}
+
+tr,
+td {
+    border: 2px solid black;
+    height: 25px;
+    width: 30px;
+    text-align: center;
+}
+
