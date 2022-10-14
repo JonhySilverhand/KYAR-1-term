@@ -1,0 +1,109 @@
+.logo {
+    width: 90px;
+    height: 90px;
+    position: fixed;
+    top: 0px;
+    left: 1260px;
+}
+
+body {
+    background-color: #fff;
+    font-family: arial;
+}
+
+h1 {
+    font-size: 40px;
+    color: #9a1cad;
+}
+
+h2,
+h3 {
+    font-size: 33px;
+    color: #9a1cad;
+}
+
+ol {
+    font-size: 25px;
+}
+
+
+p {
+    color: crimson;
+    text-align: center;
+    font-size: 21px;
+    font-family: Arial;
+}
+
+
+table {
+    border: 2px solid black;
+    width: 1200px;
+}
+
+td {
+    font-size: 28px;
+}
+
+tr,
+td {
+    border: 2px solid black;
+    height: 25px;
+    width: 30px;
+    text-align: center;
+}
+
+ul > li {
+    list-style: none;
+    background: url(arrow2.png) no-repeat 0 50%;
+    padding-left: 24px;
+}
+
+.leftimg {
+    float: left;
+    margin: 7px 7px 7px 0;
+}
+
+img {
+    width: 500px;
+    height: 310px;
+}
+
+.cont2 {
+    width: 800px;
+    margin-top: 10px;
+    margin-left: 290px;
+}
+
+.rightimg {
+    float: right;
+}
+
+p {
+    font-size: 19px;
+    font-style: italic;
+    margin: 0;
+    text-indent: 0;
+}
+
+span {
+    color: Darkblue;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.button {
+    position: absolute;
+    margin: 10px 2000px 0px 705px;
+    color: white;
+}
+
+button {
+    box-shadow: 0 0 4px white;
+    background-color: navy;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 1px;
+    color: white;
+}

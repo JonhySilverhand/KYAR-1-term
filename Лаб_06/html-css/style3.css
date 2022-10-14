@@ -1,0 +1,48 @@
+.cont1 {
+    overflow: hidden;
+    border: 1px dashed green;
+    width: 1040px;
+    height: 175px;
+}
+
+.cont11,
+.cont12,
+.cont13,
+.cont14,
+.cont15,
+.cont16 {
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid black;
+}
+
+div {
+    float: left;
+}
+
+.cont11 {
+    background-image: linear-gradient(to top, red, purple, blue);
+}
+
+.cont12 {
+    background-image: repeating-linear-gradient(45deg, red, red 10px, blue 10px, blue 20px);
+}
+
+.cont13 {
+    background-image: radial-gradient(yellow, green);
+}
+
+.cont14 {
+    background-image: repeating-radial-gradient(green, green 10px, yellow 10px, yellow 20px);
+}
+
+.cont15 {
+    background-image: radial-gradient(yellow, green, transparent),
+        linear-gradient(to top, purple, violet, blue);
+}
+
+.cont16 {
+    background-image: linear-gradient(to right, yellow, green, transparent),
+        linear-gradient(to top, purple 5%, blue 20%, white 50%, gray 70%, black 80%);
+}
