@@ -1,0 +1,25 @@
+header {
+    font-size: 35px;
+    background: linear-gradient(45deg, blue, red, violet);
+    color: aliceblue;
+    height: 40px;
+    width: 400px;
+    border-bottom: 2px solid black;
+}
+
+option {
+    font-size: 16px;
+}
+
+td {
+    height: 30px;
+    font-size: 20px;
+}
+body{
+    border:2px solid black;
+    border-radius: 7px;
+    width: 400px;
+    background-color: #f5e895;
+    margin:65px 480px;
+}
+

@@ -1,0 +1,31 @@
+body {
+    background-color: bisque;
+}
+
+
+p {
+    font-size: 25px;
+    font-family: Times New Roman;
+}
+
+/* Header */
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Nav */
+
+.nav_link {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+img{
+    height: 400px;
+    width:700px;
+}
