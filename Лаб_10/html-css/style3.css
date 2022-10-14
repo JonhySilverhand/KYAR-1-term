@@ -1,0 +1,31 @@
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.post-itm{
+    display: inline-block;
+    width: 23%;
+}
+
+@media screen and (max-width:600px){
+    
+.post-itm{
+    width: 30%;
+}
+}
+
+@media screen and (max-width:300px){
+    
+.post-itm{
+    width: 40%;
+}
+}
+@media screen and (max-width:274px){
+    
+.post-itm{
+    width: 50%;
+}
+}

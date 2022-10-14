@@ -1,0 +1,94 @@
+body {
+    background-color: #2e354a;
+}
+
+header
+#menu-mobile {
+    display: none;
+}
+
+.main-menu {
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+               /*Вертикальное меню*/
+
+.main-menu li {
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    width: 100%;
+}
+
+.main-menu a {
+    display: block;
+    border-radius: 5px;
+    padding: 9px;
+    text-decoration: none;
+    color: lightblue;
+}
+
+.main-menu a:hover {
+    color: #ffeac2;
+    text-decoration: underline;
+}
+
+/**/
+
+.toggle-button {
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #a8edea, #fed6e3);
+    border-radius: 11px;
+    color: #fff;
+    width: 20%;
+    box-shadow: 4px 2px 5px aqua;
+}
+
+#menu-mobile:checked + nav .toggle-button {
+    color: #FFF7B2;
+}
+
+#menu-mobile:checked + nav .main-menu {
+    display: block;
+}
+
+@media screen and (min-width: 640px) {
+    .toggle-button {
+        display: none;
+    }
+
+    .main-menu {
+        display: block;
+        margin: 0 auto;
+        padding: 0 15%;
+        height: 60px;
+    }
+
+    .main-menu li {
+        width: calc(100% / 4);
+        text-align: center;
+        display: inline-block;
+        margin-right: -4px;
+        padding-top: 10px;
+    }
+
+    .main-menu a {
+        display: inline-block;
+        margin-right: -4px;
+        font-size: 18px;
+        font-weight: 700;
+        background: linear-gradient(45deg, #a8edea, #fed6e3);
+        border-radius: 11px;
+        text-decoration: none;
+        color: beige;
+        text-transform: capitalize;
+        border-bottom: 0;
+        box-shadow: 4px 2px 5px aqua;
+    }
