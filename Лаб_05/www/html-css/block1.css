@@ -1,0 +1,72 @@
+.p1{
+    border-left:2px solid brown;
+    border-right: 2px solid darkblue;
+    border-top: 2px solid orange;
+}
+
+.p2{
+    border-left:2px solid #007BA7;
+    border-right: 2px solid #007BA7;
+}
+
+.p3{
+    border-top: 3px solid rgb(229, 43, 80);
+    border-left: 3px dashed skyblue;
+    border-right: 3px dashed skyblue;
+    border-bottom: 3px dashed skyblue;
+}
+
+.p4{
+    border: 1px dotted orange;
+}
+
+.p5{
+    border-top: 2px solid darkblue;
+    border-bottom: 2px solid darkblue;
+    border-left: 2px dashed #8f101f;
+    border-right: 2px dashed #8f101f;
+}
+
+.p6{
+    border:3px double #B3446C;
+}
+
+.p7{
+    border-top:1px dashed #808000;
+    border-bottom: 3px solid #FF7518;
+}
+
+.p8{
+    border-left:2px double #CC7722;
+    border-right:2px double #CC7722;
+}
+
+.p9{
+   border-top: 2px ridge  #B5A642;
+   border-right:2px ridge   #B5A642;
+}
+
+.p10{
+    border-left:5px dotted rgb(0, 40, 0);
+    border-right:5px dotted rgb(0, 40, 0);
+    border-bottom:5px dotted rgb(0, 40, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
