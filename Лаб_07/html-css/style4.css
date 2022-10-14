@@ -1,0 +1,188 @@
+.moto1 {
+    border: 2px solid aqua;
+    width: 750px;
+    height: 415px;
+    animation: moto1 5s linear infinite;
+    position: relative;
+}
+
+@keyframes moto1 {
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        left: 200px;
+        top: 0;
+    }
+
+    50% {
+        left: 0;
+        top: 0;
+    }
+
+    75% {
+        left: 200;
+        top: 0;
+    }
+
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
+
+.moto2 {
+    border: 2px solid aqua;
+    width: 750px;
+    height: 415px;
+    animation: moto2 5s linear infinite;
+    position: relative;
+}
+
+@keyframes moto2 {
+    0% {
+        top: 0;
+    }
+
+    25% {
+        top: 200px;
+    }
+
+    50% {
+        top: 0;
+    }
+
+    75% {
+        top: 200px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+div {
+    margin-top: 200px;
+}
+
+.moto3 {
+    border: 2px solid aqua;
+    width: 750px;
+    height: 415px;
+    animation: moto3 5s linear infinite;
+    position: relative;
+}
+
+@keyframes moto3 {
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        left: 200px;
+        top: 0;
+    }
+
+    50% {
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0;
+    }
+}
+
+.moto4 {
+    border: 2px solid aqua;
+    width: 750px;
+    height: 415px;
+    animation: moto4 10s linear infinite;
+    position: relative;
+}
+
+@keyframes moto4 {
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    10% {
+        left: 200px;
+        top: 0;
+    }
+
+    20% {
+        left: 200px;
+        top: 200px;
+    }
+
+    30% {
+        left: 400px;
+        top: 200px;
+    }
+
+    40% {
+        left: 400px;
+        top: 0;
+    }
+
+    50% {
+        left: 600px;
+        top: 400px;
+    }
+
+    60% {
+        left: 400px;
+        top: 600px;
+    }
+
+    70% {
+        left: 700px;
+        top: 500px;
+    }
+
+    80% {
+        left: 900px;
+        top: 100px;
+    }
+
+    90% {
+        left: 1200px;
+        top: 700px;
+    }
+
+    100% {
+        left: 1400px;
+        top: 900px;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-size: 34px;
+    color: darkblue;
+    animation-name: oh1;
+    animation-direction: reverse;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes oh1 {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 80%;
+    }
+}
