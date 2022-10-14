@@ -1,0 +1,18 @@
+tr,
+td {
+    border: 2px solid black;
+}
+
+table {
+    border: 1px solid black;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.str1{
+    background-color: #46b3a8;
+}
+
+.cl1{
+    background-color: aqua;
+}

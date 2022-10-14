@@ -1,0 +1,64 @@
+.block {
+    background-color: indigo;
+    color: #fff;
+    padding: 10px 20px;;
+    font-size: 1.2em;
+}
+
+label input {
+    margin-left: 20px;
+}
+
+input {
+    background-color: rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, .75);
+    border: 1px solid navy;
+    border-radius: 3px;
+}
+
+.button_box {
+    margin-left: 110px;
+    margin-bottom: 26px;
+    display: flex;
+    width: 230px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.cont3 {
+    background-color: indigo;
+    width: 363px;
+    height: 425px;
+}
+
+
+
+button {
+    box-shadow: 0 0 4px white;
+    background-color: navy;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 1px;
+}
+
+.container2 {
+    display: flex;
+    background-color: indigo;
+    color: #fff;
+    width: 360px;
+}
+
+.container12 {
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input[type=text]:focus {
+    color: #000;
+    background-color: #000;
+}
